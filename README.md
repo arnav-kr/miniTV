@@ -1,6 +1,6 @@
 # miniTV
 
-<p align="center"><img src="https://raw.githubusercontent.com/arnav-kr/DC-Tokens/main/images/minitv.svg" width="200px" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arnav-kr/minitv/main/images/minitv.svg" width="200px" /></p>
 
 [![npm version](https://img.shields.io/npm/v/minitv.svg?maxAge=3600)](https://npmjs.com/package/minitv)
 [![npm downloads](https://img.shields.io/npm/dt/minitv.svg?maxAge=3600)](https://npmjs.com/package/minitv)
@@ -48,7 +48,7 @@ Run help commnad to see all the options
 minitv --help
 ```
 
-<img width="700" alt="image" src="[https://raw.](https://raw.githubusercontent.com/arnav-kr/DC-Tokens/main/images/screenshot.png)">
+<img width="700" alt="image" src="[https://raw.](https://raw.githubusercontent.com/arnav-kr/minitv/main/images/screenshot.png)">
 
 ## Example
 
