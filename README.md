@@ -48,6 +48,8 @@ Run help commnad to see all the options
 minitv --help
 ```
 
+<img width="700" alt="image" src="[https://raw.](https://raw.githubusercontent.com/arnav-kr/DC-Tokens/main/images/screenshot.png)">
+
 ## Example
 
 ```bash
