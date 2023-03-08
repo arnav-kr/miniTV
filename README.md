@@ -6,7 +6,7 @@
 ---
 
 ## About
-Downloader For Amazon miniTV,m
+Downloader For Amazon miniTV
 
 ## Features
 * Download Web Series/Episodes from Amazon miniTV
