@@ -2,7 +2,7 @@
   "name": "minitv",
   "version": "0.0.4",
   "description": "Downloader For Amazon minitv",
-  "main": "dist/lib/index.js",
+  "main": "dist/index.js",
   "bin": "dist/index.js",
   "types": "dist/index.d.js",
   "scripts": {
