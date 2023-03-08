@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en-US" }}">
+
+<head prefix="og: https://ogp.me/ns# 
+              https://ogp.me/ns/website#">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Primary Meta Tags -->
+  <title>minitv Downloader</title>
+  <meta name="title" content="Downloader For Amazon minitv">
+  <meta name="description"
+    content="Downloader For Amazon minitv">
+  <meta name="keywords"
+    content="">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://arnav-kr.github.io/minitv/">
+  <meta property="og:title" content="Downloader For Amazon minitv">
+  <meta property="og:description"
+    content="Downloader For Amazon minitv">
+  <meta property="og:image" content="https://raw.githubusercontent.com/arnav-kr/minitv/main/images/og_banner.png">
+  <meta property="og:image:secure_url"
+    content="https://raw.githubusercontent.com/arnav-kr/minitv/main/images/og_banner.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1024" />
+  <meta property="og:image:height" content="696" />
+  <meta property="og:image:alt" content="minitv" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://arnav-kr.github.io/minitv/">
+  <meta property="twitter:title" content="Downloader For Amazon minitv">
+  <meta property="twitter:description"
+    content="Downloader For Amazon minitv">
+  <meta property="twitter:image" content="https://raw.githubusercontent.com/arnav-kr/minitv/main/images/og_banner.png">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/svg+xml"
+    href="https://raw.githubusercontent.com/arnav-kr/minitv/main/images/og_banner.png" />
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/arnav-kr/minitv/main/images/minitv.svg" />
+  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/arnav-kr/minitv/main/images/minitv.svg" />
+
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  {% include head-custom.html %}
+</head>
+
+<body>
+  <div class="container-lg px-3 my-5 markdown-body">
+    {{ content }}
+    <!-- 
+      {% if site.github.private != true and site.github.license %}
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. {% github_edit_link "Improve this page" %}.
+      </div>
+      {% endif %} -->
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+    integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+  <script>anchors.add();</script>
+</body>
+
+</html>
