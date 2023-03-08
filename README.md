@@ -1,4 +1,4 @@
-# minitv
+# miniTV
 
 [![npm version](https://img.shields.io/npm/v/minitv.svg?maxAge=3600)](https://npmjs.com/package/minitv)
 [![npm downloads](https://img.shields.io/npm/dt/minitv.svg?maxAge=3600)](https://npmjs.com/package/minitv)
@@ -6,30 +6,50 @@
 ---
 
 ## About
-
-Downloader For Amazon minitv
+Downloader For Amazon miniTV,m
 
 ## Features
-* Download Web Series/Episodes from Amazon minitv
+* Download Web Series/Episodes from Amazon miniTV
 
 ## Install
 
 **Via NPM:**
 
 ```bash
-npm install minitv
+npm install -g minitv
 ```
 
 **Via Yarn:**
 
 ```bash
-yarn add minitv
+yarn global add minitv
 ```
 
 **Via PNPM**
   
 ```bash
-pnpm install minitv
+pnpm add -g minitv
+```
+
+## Usage
+
+miniTV is a wrapper for [youtube-dl](https://github.com/ytdl-org/youtube-dl) and requires `youtube-dl` to be installed on your system to work. Further more, tools like [ffmpeg](https://ffmpeg.org/) and [ffprobe](https://ffmpeg.org/ffprobe.html) maybe required to be installed work properly in some cases.
+
+[![youtube-dl](https://badgen.net/badge/download/youtube-dl/orange)](https://ytdl-org.github.io/youtube-dl/download.html)
+
+[![ffmpeg](https://badgen.net/badge/download/ffmpeg/orange)](https://ffmpeg.org/download.html)
+
+
+Run help commnad to see all the options
+
+```bash
+minitv --help
+```
+
+## Example
+
+```bash
+minitv https://www.amazon.in/minitv/tp/0478a3f9-e35d-40d4-97e8-e09684007fa6 -f bestvideo+bestaudio
 ```
 
 ## Report an Issue 
