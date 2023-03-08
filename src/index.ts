@@ -3,18 +3,14 @@ import fetch from "./fetchInfo";
 import child_process from "child_process";
 import { help } from "./consts";
 
-// make a cli tool that is proxy to youtube-dl just insert the url using fetchInfo
-
 let url = process.argv[2];
 let args = process.argv.slice(3);
 
 ; (async () => {
-  // if no url is provided show help
   if (!url) {
     console.log(help);
     process.exit(0);
   }
-  // if help is provided show help
   if (url === "-h" || url === "--help" || url === "help") {
     console.log(help);
     process.exit(0);

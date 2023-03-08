@@ -1,6 +1,3 @@
-// significant text in cyan
-// author in unique style with solid background
-// notes in secondary color
 export const help = `
 \x1b[36m
             _       _ _________      __

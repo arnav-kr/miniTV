@@ -1,3 +1,3 @@
-### V0.0.2
+### V0.0.3
 
-* Added Help command
+minor updates
