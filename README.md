@@ -1,5 +1,7 @@
 # miniTV
 
+<p align="center"><img src="https://raw.githubusercontent.com/arnav-kr/DC-Tokens/main/images/minitv.svg" width="200px" /></p>
+
 [![npm version](https://img.shields.io/npm/v/minitv.svg?maxAge=3600)](https://npmjs.com/package/minitv)
 [![npm downloads](https://img.shields.io/npm/dt/minitv.svg?maxAge=3600)](https://npmjs.com/package/minitv)
 
