@@ -1,6 +1,6 @@
 {
   "name": "minitv",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Downloader For Amazon minitv",
   "main": "dist/index.js",
   "bin": "dist/index.js",
